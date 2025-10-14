@@ -2,13 +2,19 @@
 <html>
   <head>
     <title>Alberto Polidura</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jumbotron-narrow.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="import" href="footer.html">
-    <link href="css/portfolio-item.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/jumbotron-narrow.css" rel="stylesheet" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="import" href="footer.html" />
+  <link href="css/portfolio-item.css" rel="stylesheet" />
+  <style>
+    /* Extra spacing below the Projects intro paragraph */
+    .projects-intro {
+      margin-bottom: 24px;
+    }
+  </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,45 +35,68 @@
         </div>
 
         <h3>Projects</h3>
-        Bellow there is a selection of the projects I have been working on during free time or college. Note that here are not included those related to my previous jobs for obvious reasons.
+        <p class="projects-intro">
+          Bellow there is a selection of the projects I have been working on during free time or college. Note that here
+          are not included those related to my previous jobs for obvious reasons.
+        </p>
 
-        <div class="row marketing">
 
           <div class="row">
-          
-            <div class="col-lg-12 col-md-12 portfolio-item">
-              <a href="https://gobierno-abierto.es"><img class="img-responsive" src="projects/gobierno-abierto/cover.png"></a>
-              <h3><a href="https://gobierno-abierto.es">gobierno-abierto.es</a></h3>
+            <div class="col-lg-6 col-md-6 portfolio-item">
+              <a href="https://www.podsup.app"
+                ><img class="img-responsive" src="projects/podsup/cover.png"
+              /></a>
+              <h3><a href="https://www.podsup.app">Podsup</a></h3>
+              <p>Podcast insights and analytics powered by AI</p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 portfolio-item">
+              <a href="https://gobierno-abierto.es"
+                ><img class="img-responsive" src="projects/gobierno-abierto/cover.png"
+              /></a>
+              <h3><a href="https://gobierno-abierto.es">Gobierno Abierto</a></h3>
               <p>Visibility of votes in the spanish parlament</p>
             </div>
-          
+
+
+
           </div>
 
           <div class="row">
       
       <div class="col-lg-6 col-md-6 portfolio-item">
-          <a href="projects/rental-analysis/"><img class="img-responsive" src="projects/rental-analysis/cover.png"></a>
+          <a href="projects/rental-analysis/"
+            ><img class="img-responsive" src="projects/rental-analysis/cover.png"
+          /></a>
           <h3><a href="projects/rental-analysis/">Rental market analysis</a></h3>
           <p>Data analysis of the rental market in Madrid 16/17.</p>
         </div>
 
         <div class="col-lg-6 col-md-6 portfolio-item">
-          <a href="projects/scraper/"><img class="img-responsive" src="projects/scraper/cover.png"></a>
+          <a href="projects/scraper/"
+            ><img class="img-responsive" src="projects/scraper/cover.png"
+          /></a>
           <h3><a href="projects/scraper/">Flat scraper</a></h3>
           <p>A golang scraper which finds the latest flats and notifies via mail.</p>
         </div>
+
+          </div>
         
 
           <div class="row">
 
           <div class="col-lg-6 col-md-6 portfolio-item">
-          <a href="projects/kaggle"><img class="img-responsive" src="projects/kaggle/cover.png"></a>
+          <a href="projects/kaggle"
+            ><img class="img-responsive" src="projects/kaggle/cover.png"
+          /></a>
           <h3><a href="projects/kaggle">Kaggle competitions</a></h3>
           <p>All the different Kaggle competitions in which participated.</p>
         </div>
 
         <div class="col-lg-6 col-md-6 portfolio-item">
-          <a href="projects/rottenapp/"><img class="img-responsive" src="projects/rottenapp/cover.png"></a>
+          <a href="projects/rottenapp/"
+            ><img class="img-responsive" src="projects/rottenapp/cover.png"
+          /></a>
           <h3><a href="projects/rottenapp/">RottenApp</a></h3>
           <p>Android application for the Rotten Tomatoes movies API.</p>
         </div>
@@ -76,15 +105,19 @@
       </div>
 
           <div class="row">
-		  
-		  <div class="col-lg-6 col-md-6 portfolio-item">
-          <a href="projects/pfc/"><img class="img-responsive" src="projects/pfc/cover.png"></a>
+	  
+	  <div class="col-lg-6 col-md-6 portfolio-item">
+          <a href="projects/pfc/"
+            ><img class="img-responsive" src="projects/pfc/cover.png"
+          /></a>
           <h3><a href="projects/pfc/">Bachelor Thesis</a></h3>
           <p>Scatter Search and Path Relinking based metaheuristics to solve the Fuzzy Job Shop Scheduling Problem</p>
         </div>
         
         <div class="col-lg-6 col-md-6 portfolio-item">
-          <a href="projects/master/"><img class="img-responsive" src="projects/master/cover.png"></a>
+          <a href="projects/master/"
+            ><img class="img-responsive" src="projects/master/cover.png"
+          /></a>
           <h3><a href="projects/master/">Master Thesis</a></h3>
           <p>Implementation of the Probabilistic Traveling Salesman Problem in HeuristicLab framework</p>
         </div>
@@ -99,7 +132,7 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/analytics.js"></script>
+  <script src="js/gtag.js"></script>
     <script src="js/footer.js"></script>
   </body>
 </html>

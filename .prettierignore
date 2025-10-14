@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output (not present, but future-proof)
+dist/
+build/
+
+# Fonts and binaries
+fonts/
+
+# Minified/vendor bundles
+**/*.min.css
+**/*.min.js
+css/bootstrap*.css
+js/bootstrap*.js
+
+# Misc
+.DS_Store

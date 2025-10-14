@@ -1,18 +1,18 @@
 .portfolio-item {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 footer {
-	margin: 50px 0;
+  margin: 50px 0;
 }
 
 .portfolio-item img {
   border: 3px solid #e0e0e0;
   border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s, border-color 0.2s;
 }
 .portfolio-item img:hover {
   border-color: #007bff;
-  box-shadow: 0 8px 24px rgba(0,123,255,0.15);
+  box-shadow: 0 8px 24px rgba(0, 123, 255, 0.15);
 }
